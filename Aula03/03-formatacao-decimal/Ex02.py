@@ -10,3 +10,9 @@ Saída:
 O lucro é de: 50.00
 """
 
+n1 = float(input("Digite o preço de venda: "))
+n2 = float(input("Digite o custo do produto: "))
+
+lucro = (n1 - n2)
+
+print(f"A média aritmética é: {lucro}")

@@ -11,3 +11,12 @@ O lucro é de: 20.00
 A margem de lucro é de: 20.00%
 
 """
+n1 = float(input("Digite o preço de venda: "))
+n2 = float(input("Digite o custo do produto: "))
+
+lucro = (n1 - n2)
+
+print(f"A média aritmética é: {lucro}")
+
+
+"""precisa termina"""
