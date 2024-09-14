@@ -8,3 +8,9 @@ Digite uma palavra: python
 Exemplo de saída:
 A palavra em maiúsculas é: PYTHON
 """
+
+a = (SyntaxWarning.upper(input()))
+
+
+
+print(a)

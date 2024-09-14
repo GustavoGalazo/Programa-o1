@@ -13,6 +13,12 @@ O maior número é 10.
 O menor número é 5.
 
 """
+def encontrar_maior(numero1, numero2, numero3):
+    return numero1 > numero2 > numero3
+
+def encontrar_menor(numero1, numero2, numero3):
+    return numero1 < numero2 < numero3
+
 numero1 = int(input("Digite o primeiro número: "))
 numero2 = int(input("Digite o segundo número: "))
 numero3 = int(input("Digite o terceiro número: "))
@@ -22,5 +28,5 @@ maior = encontrar_maior(numero1, numero2, numero3)
 menor = encontrar_menor(numero1, numero2, numero3)
 
 # Exibindo o resultado
-print(f"O maior número é {maior}.")
-print(f"O menor número é {menor}.")
+print(f"O maior número é {encontrar_maior}.")
+print(f"O menor número é {encontrar_menor}.")

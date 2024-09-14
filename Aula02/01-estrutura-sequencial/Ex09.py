@@ -1,3 +1,6 @@
+
+
+
 """
 Exercício 09 – Crie um programa que solicite ao usuário a entrada de um número inteiro.
 O programa deve calcular e exibir os seguintes resultados:
