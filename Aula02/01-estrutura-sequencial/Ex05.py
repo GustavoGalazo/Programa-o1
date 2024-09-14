@@ -9,8 +9,7 @@ Exemplo de saída:
 A palavra em maiúsculas é: PYTHON
 """
 
-a = (SyntaxWarning.upper(input()))
-
+a = (input("Escreva uma palavra: "))
 
 
 print(a)
